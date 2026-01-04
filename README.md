@@ -7,6 +7,32 @@ Export your X/Twitter bookmarks to markdown using the bird CLI.
 - Node.js 18+
 - [bird CLI](https://github.com/steipete/bird) - X/Twitter CLI tool
 
+## Files
+
+| File | Description |
+|------|-------------|
+| `convert-bookmarks-to-md.js` | Node.js script to convert JSON to markdown |
+| `skills/x-bookmarks/SKILL.md` | Claude Code skill definition |
+| `.claude-plugin/plugin.json` | Plugin manifest for marketplace distribution |
+| `bookmarks.json` | Exported bookmarks (generated) |
+| `bookmarks-YYYY-MM-DD.md` | Markdown output (generated) |
+
+## Claude Code Plugin
+
+This project is a Claude Code plugin. Once installed, you can ask Claude to "export my X bookmarks" and it will guide you through the process.
+
+### Install from GitHub
+
+```bash
+/plugin install nickleefly/x-bookmarks
+```
+
+### Install Locally
+
+```bash
+/plugin install ./path/to/x-bookmarks
+```
+
 ## Installation
 
 ```bash
@@ -107,32 +133,6 @@ Introducing Claude 4! Our most capable model yet.
 
 - Likes: 5432 | Retweets: 1234 | Replies: 567
 - [View tweet](https://x.com/AnthropicAI/status/1234567890123456789)
-```
-
-## Files
-
-| File | Description |
-|------|-------------|
-| `convert-bookmarks-to-md.js` | Node.js script to convert JSON to markdown |
-| `skills/x-bookmarks/SKILL.md` | Claude Code skill definition |
-| `.claude-plugin/plugin.json` | Plugin manifest for marketplace distribution |
-| `bookmarks.json` | Exported bookmarks (generated) |
-| `bookmarks-YYYY-MM-DD.md` | Markdown output (generated) |
-
-## Claude Code Plugin
-
-This project is a Claude Code plugin. Once installed, you can ask Claude to "export my X bookmarks" and it will guide you through the process.
-
-### Install from GitHub
-
-```bash
-/plugin install nickleefly/x-bookmarks
-```
-
-### Install Locally
-
-```bash
-/plugin install ./path/to/x-bookmarks
 ```
 
 ## Troubleshooting
