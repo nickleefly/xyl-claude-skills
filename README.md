@@ -21,16 +21,24 @@ Export your X/Twitter bookmarks to markdown using the bird CLI.
 
 This project is a Claude Code plugin. Once installed, you can ask Claude to "export my X bookmarks" and it will guide you through the process.
 
-### Install from GitHub
+### Install from Marketplace
+
+First, add the marketplace (if not already added):
 
 ```bash
-/plugin install nickleefly/x-bookmarks
+/plugin marketplace add nickleefly/x-bookmarks
+```
+
+Then install the plugin:
+
+```bash
+/plugin install x-bookmarks@x-bookmarks-marketplace
 ```
 
 ### Install Locally
 
 ```bash
-/plugin install ./path/to/x-bookmarks
+/plugin install .
 ```
 
 ## Installation

@@ -1,0 +1,19 @@
+{
+  "name": "x-bookmarks-marketplace",
+  "description": "Marketplace for X/Twitter bookmarks tools",
+  "owner": {
+    "name": "Nick Li",
+    "email": "nickleefly@gmail.com",
+    "url": "https://github.com/nickleefly"
+  },
+  "plugins": [
+    {
+      "name": "x-bookmarks",
+      "description": "Export X/Twitter bookmarks to markdown using the bird CLI",
+      "source": {
+        "source": "github",
+        "repo": "nickleefly/x-bookmarks"
+      }
+    }
+  ]
+}
