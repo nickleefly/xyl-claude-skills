@@ -1,0 +1,13 @@
+{
+  "name": "x-bookmarks",
+  "description": "Export X/Twitter bookmarks to markdown using the bird CLI",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nick Lee",
+    "email": "nickleefly@gmail.com"
+  },
+  "homepage": "https://github.com/nickleefly/x-bookmarks",
+  "repository": "https://github.com/nickleefly/x-bookmarks",
+  "license": "MIT",
+  "keywords": ["twitter", "x", "bookmarks", "export", "markdown"]
+}

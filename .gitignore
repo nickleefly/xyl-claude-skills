@@ -1,0 +1,13 @@
+# Generated files
+bookmarks.json
+bookmarks-*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Local Claude settings
+.claude/
