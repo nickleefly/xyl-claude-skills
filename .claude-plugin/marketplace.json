@@ -10,12 +10,20 @@
   },
   "plugins": [
     {
-      "name": "content-skills",
-      "description": "Content export and publishing skills",
+      "name": "x-bookmarks",
+      "description": "Export X/Twitter bookmarks to markdown using the bird CLI",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/x-bookmarks",
+        "./skills/x-bookmarks"
+      ]
+    },
+    {
+      "name": "substack",
+      "description": "Publish newsletter articles to Substack as drafts",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./skills/substack"
       ]
     }
