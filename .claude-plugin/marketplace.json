@@ -12,14 +12,20 @@
     {
       "name": "x-bookmarks",
       "description": "Export X/Twitter bookmarks to markdown using the bird CLI",
-      "source": "./skills/x-bookmarks",
-      "strict": false
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/x-bookmarks"
+      ]
     },
     {
       "name": "substack",
       "description": "Publish newsletter articles to Substack as drafts",
-      "source": "./skills/substack",
-      "strict": false
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/substack"
+      ]
     }
   ]
 }

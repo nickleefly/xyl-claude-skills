@@ -1,6 +1,6 @@
 # Generated files
-bookmarks.json
-bookmarks-*.md
+bookmarks*.json
+bookmarks*.md
 
 # OS files
 .DS_Store
