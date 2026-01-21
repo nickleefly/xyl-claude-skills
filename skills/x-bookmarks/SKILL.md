@@ -15,11 +15,23 @@ Export X/Twitter bookmarks to markdown via `bird` CLI and `convert-bookmarks-to-
 ## Usage
 
 1. **Verify bird**: `bird --version`.
-2. **Verify Auth**: `bird whoami`. If fails, log into X in browser or use `bird whoami --cookie-source [safari|chrome|firefox]`.
-3. **Fetch JSON**:
+2. **Verify Auth**: `bird whoami`
+3. **Set environment variables** in `.bashrc` file
+
+```bash
+export AUTH_TOKEN="your_auth_token"
+export CT0="your_ct0"
+```
+
+verify with `bird whoami --auth-token $AUTH_TOKEN --ct0 $CT0`
+
+4. **Fetch JSON**:
    - `bird bookmarks --all --json > bookmarks.json` (or use `-n <count>`).
-4. **Convert**:
-   Run `node convert-bookmarks-to-md.js bookmarks.json` to generate the markdown file.
+5. **Convert**:
+   The `convert-bookmarks-to-md.js` script in this plugin converts the JSON to markdown.
+   Usage: `node convert-bookmarks-to-md.js [input.json] [output.md]`
+   - Input defaults to `bookmarks.json`
+   - Output defaults to `bookmarks-[YYYY-MM-DD].md`
 
 ## Troubleshooting
 - **Query ID error**: `bird query-ids --fresh`
