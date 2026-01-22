@@ -4,7 +4,6 @@ This  plugin allows users to export their X/Twitter bookmarks to markdown.
 
 ## Commands
 
-- **Install Plugin Locally**: `/plugin install .`
 - **Run Conversion Script**: `node skills/x-bookmarks/convert-bookmarks-to-md.js [input.json] [output.md]`
 - **Fetch Bookmarks (Manual)**: `bird bookmarks -n 30 --json > bookmarks.json` (or `bird bookmarks --all --json` for all bookmarks)
 

@@ -9,14 +9,14 @@ Collection of Claude Code skills for X/Twitter bookmarks export and Substack pub
 In Claude Code, register the marketplace first:
 
 ```bash
-/plugin marketplace add nickleefly/xyl-claude-skills
+/plugin marketplace add nickleefly/xyl-skills
 ```
 
 Then install the plugin:
 
 ```bash
-/plugin install x-bookmarks@xyl-claude-skills
-/plugin install substack@xyl-claude-skills
+/plugin install x-bookmarks@xyl-skills
+/plugin install substack@xyl-skills
 ```
 
 ### Verify Installation

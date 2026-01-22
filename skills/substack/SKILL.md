@@ -35,7 +35,7 @@ Takes a Markdown newsletter article and creates a beautiful draft in Substack, p
 
 Run the auth check before first use:
 ```bash
-python3 xyl-claude-skills/skills/substack/tools/check_auth.py
+python3 xyl-skills/skills/substack/tools/check_auth.py
 ```
 
 ## Instructions
