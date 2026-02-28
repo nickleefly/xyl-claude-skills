@@ -1,0 +1,14 @@
+{
+    "name": "x-bookmarks",
+    "version": "1.0.0",
+    "description": "Export X/Twitter bookmarks to markdown.",
+    "author": {
+        "name": "Nick Li",
+        "email": "nickleefly@gmail.com"
+    },
+    "keywords": [
+        "x",
+        "twitter",
+        "bookmarks"
+    ]
+}
