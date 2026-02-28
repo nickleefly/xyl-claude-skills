@@ -1,6 +1,6 @@
 {
     "name": "x-bookmarks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Export X/Twitter bookmarks to markdown.",
     "author": {
         "name": "Nick Li",
