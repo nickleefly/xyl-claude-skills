@@ -6,6 +6,11 @@ Collection of Claude Code skills for X/Twitter bookmarks export and Substack pub
 
 ### Quick Install (Recommended)
 
+#### use [skills](https://github.com/vercel-labs/skills) add
+```
+npx skills add nickleefly/xyl-skills
+```
+
 In Claude Code, register the marketplace first:
 
 ```bash
