@@ -5,7 +5,7 @@
     "email": "nickleefly@gmail.com"
   },
   "metadata": {
-    "description": "Skills for X/Twitter bookmarks export and Substack publishing",
+    "description": "Skills for X/Twitter bookmarks export",
     "version": "1.0.0"
   },
   "plugins": [
@@ -13,12 +13,6 @@
       "name": "x-bookmarks",
       "description": "Export X/Twitter bookmarks to markdown using the bird CLI",
       "source": "./skills/x-bookmarks",
-      "strict": false
-    },
-    {
-      "name": "substack",
-      "description": "Publish newsletter articles to Substack as drafts",
-      "source": "./skills/substack",
       "strict": false
     }
   ]
